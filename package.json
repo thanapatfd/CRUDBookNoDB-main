@@ -1,28 +1,29 @@
 {
-  "name": "npmpackage",
+  "name": "noderest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/CRUDBookNoDB.js",
-    "format": "prettier --write *.js" ,
-    "dev" : "nodemon src/CRUDBookNoDB.js"
+    "start": "node index.js",
+    "format": "prettier --write *.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pannawat123/npmpackage.git"
+    "url": "git+https://github.com/thanapatfd/NodeRest.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pannawat123/npmpackage/issues"
+    "url": "https://github.com/thanapatfd/NodeRest/issues"
   },
-  "homepage": "https://github.com/pannawat123/npmpackage#readme",
+  "homepage": "https://github.com/thanapatfd/NodeRest#readme",
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20",
-    "prettier": "^2.8.3"
+    "express": "^4.18.2"
   }
 }
+
